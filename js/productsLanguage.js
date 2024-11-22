@@ -21,7 +21,7 @@ const translations = {
      emailHeadingFooter:"Email",
      //-------product names and uses------
      amrurhaDharaTitle:'Amrutha Dhara',
-     amrurhaDharaUses:'Relieves Stomach Pain | Bloating | Belching | Gas | Vomiting |Diarrhea | Cold | Cough | Body Pains.',
+     amrurhaDharaUses:'Relieves Stomach Pain | Bloating | Belching | Gas | Vomiting | Diarrhea | Cold | Cough | Body Pains',
      gauDantManjanTitle:'Gau-Dant Manjan Tooth Powder',
      gauDantManjanUses:'oral & dental problems | inflammation of gums | bleeding gums.',
 
@@ -132,7 +132,7 @@ emailHeadingFooter:"ఇమెయిల్",
     // ----------footer language--------
     //-------product names and uses------
     amrurhaDharaTitle:'అమృత ధారా',
-    amrurhaDharaUses:'కడుపునొప్పి | వాపు | అజీర్ణం | వాంతులు.',
+    amrurhaDharaUses:'కడుపునొప్పి | ఉబ్బరం | పుల్లటి తేనుపులు | గ్యాస్ | వాంతులు | విరేచనాలు | జలుబు | దగ్గు |ఒళ్ళు నొప్పులు నివారణ.',
     gauDantManjanTitle:'గో-దంతమంజన్ పళ్ళ పొడి',
     gauDantManjanUses:'నోటి & దంత సమస్యలు | చిగుళ్ళ వాపు | చిగుళ్ళలో రక్తస్రావం.',
 

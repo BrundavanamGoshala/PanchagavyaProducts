@@ -120,7 +120,7 @@ howToUseProduct:"ఉపయోగించటం ఎలా",
 productNote:"గమనిక",
 //---------about product--------
 productNameForTranslation:"పంచగవ్య ఘ్రుతం నాసికా చుక్కలు",
-usesOfProductForTranslation:"జ్వరం | సైనస్ | మైగ్రేన్ | తలనొప్పి | నరాల బలహీనత | గురక | కామెర్లు | మెదడు & కాలేయ సమస్యలు.",
+usesOfProductForTranslation:"జ్వరం | సైనస్ | మైగ్రైన్ | తలనొప్పి | నరాల బలహీనత | గురక | కామెర్లు | మెదడు & కాలేయ సమస్యలు.",
 //----ingredients---
 ingredientsOneForTranslation:'స్వచ్ఛమైన దేశీ ఆవు పాలు',
 ingredientsTwoForTranslation:'పెరుగు',

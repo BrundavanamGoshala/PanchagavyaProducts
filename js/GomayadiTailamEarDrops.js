@@ -97,7 +97,7 @@ productUses:"ఉపయోగాలు",
 howToUseProduct:"ఉపయోగించటం ఎలా",
 //---------about product--------
 productNameForTranslation:"గోమయాది తైలం చెవి చుక్కలు",
-usesOfProductForTranslation:"చెవి సంబంధిత అంటువ్యాధులు | దిమ్మలు | పుండ్లు & చెవిలో నొప్పి ఉపశమనం కోసం | మొబైల్ ఫోన్‌ల వల్ల కలిగే రేడియేషన్ దుష్ప్రభావాలను తగ్గించడం.",
+usesOfProductForTranslation:"చెవికి సంబంధించిన ఎటువంటి వ్యాధులకైనా పని చేస్తుంది | చెవిలో కురుపులు | పుండ్లు & చెవిలో నొప్పి ఉపశమనం కోసం | మొబైల్ ఫోన్ల రేడియేషన్ వల్ల కలిగే దుష్ప్రభావాలను తగ్గించడంలో సహాయపడుతుంది",
 //----ingredients---
 sesameoilForTranslation:'నువ్వుల నూనె',
 cowdungjuiceForTranslation:'గోమయ రసం',
