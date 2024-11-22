@@ -119,7 +119,7 @@ howToUseProduct:"ఉపయోగించటం ఎలా",
 productNote:"గమనిక",
 //---------about product--------
 productNameForTranslation:"అమృతధార",
-usesOfProductForTranslation:"జ్వరం | సైనస్ | మైగ్రేన్ | తలనొప్పి | నరాల బలహీనత | గురక | కామెర్లు | మెదడు & కాలేయ సమస్యలు.",
+usesOfProductForTranslation:"కడుపునొప్పి | ఉబ్బరం | పుల్లటి తేనుపులు | గ్యాస్ | వాంతులు | విరేచనాలు | జలుబు | దగ్గు |ఒళ్ళు నొప్పులు నివారణ.",
 //----ingredients---
 ingredientsOneForTranslation:'పుదీనా పువ్వు',
 ingredientsTwoForTranslation:'వాము పువ్వు',
