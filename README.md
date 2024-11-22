@@ -1,2 +1,30 @@
 # PanchagavyaProducts
-this repository is for our website
+
+BRUNDAVANAM 
+(Gaumata is Viswa Mata. It gives everything, whatever required for this world. In turn it won’t expect anything from us. It’s our responsibility to save our mother, for the health and wealth of the mankind.
+@ BRUNDAVANAM, we never expect/demand any donations by any means. We expect you to buy our Gaushala products to support us and save gouvansh. This is economical war rather sentimental.)
+
+Our Story
+We started our journey in 2015 @ BRUNDAVANAM, as a cow-based farming station.
+BRUNDAVANAM has many geographical significances. Its on the foot of Eastern ghats, with abundant water resources. Its within 90 minutes reach from Visakhapatnam and 60 minutes reach from newly constructed Bhogapuram green field airport. And also, very convenient for rearing cows with lot of scope for grazing. The most important aspect is ,its very close to forest where lot of herbs are available which are essential in making panchagavya medicines.
+@ BRUNDAVANAM first we have developed a Gouber Gas plant with a dual purpose of getting clean fuel for cooking and CHEMICAL FREE manure for the soil.
+@ BRUNDAVANAM we are growing some of the much-neglected native plants like palm trees/Trifhala/Lakshmanfal /Raavi/chinta/neem/lemon/orange etc which are very much important and essential for maintaining our good health.
+@ BRUNDAVANAM Since 2016 with the guidance of PUJYA GURU Shri Raghvendra Jadeja, we have started Desi cow breed development program.
+Indians worship COW as a holy mother. But in the past few years there is huge decline in the count of breeds which we have and also the population of cows which we have. in the past 100 years the breed’s type came down to 32 from 75.
+Due to lack of proper feeding, breeding and lack of knowledge to rear the cows the potential of the cows came down very drastically. In an addition to that application of chemical fertilizers to the soil and change in weather conditions the grazing pastures and healthy soils has become desert kind of soils. Basic thing a man (farmer) expects from cow is milk and today as a fruit of the mistakes committed by us and our previous generations today we are left out in this situation that few of our cows are just milking 1-2 liters per day.
+@ BRUNDAVANAM we have developed a healthy herd by giving all the necessary nutrition required for then in few generations .we feed them good, we breed them good. we reared the calves with open heart and always grow them by giving due share of milk for them. We have grown our own fodder without any chemical festination .
+All these things put together @Brundavanam we have gradually improve the breed quality and with the blessings of Shri Raghvendra Jadeja ji and Shri Pratap Jadeja ji .Today we have considerable number of Gaumata, significantly all of them from ROYAL BHADWA blood line ,who are involved in GIR COW breeding since last 60 years.
+@Brundavanam, for the last 8 years we are practicing all good practices for Breed development by, leaving maximum milk for the calf’s, sending cows every day for grazing, not using English medicine except in emergencies etc.
+
+Mission
+
+Agriculture is the backbone of the rural as well as country’s economy. Olden days Farmers used to have big number of cows and bullocks. They used mostly cow dung and urine for agricultural practices. They hardly milk the cows. Only used to milk for domestic use only and milk is not for sale. The males being used for plowing the land and carrying loads. The harvest they got is chemical free, high in nutrients and very good in taste. They lead a very healthy and quality life. Different sections of people used to help each other in a village and lived with harmony and peace.
+With the introduction of tractor, chemical fertilizers, and pesticides the scenario has been totally changed. Farmers are producing food only good in quantity and not in quality/nutrients/taste. By consuming such food people are affected by many chronic deceases. Even the farmer’s having more land was not interested in rearing cows, as they are only quantity conscious. End of day whatever money they earned on these practices being spent towards hospital bills and for paying fertilizer and pesticide bills.
+But in reality, Land, Cow and Human depend on each other for mutual benefit.@ BRUNDAVANAM we believe cow should be associated with farmer and land, unfortunately todays world they were reared only for milk, tied in closed enclosers and their calves were not given the due share of milk even they were feed nicely. It’s very pathetic to see in some goshala, even there is no place for them to lay down on flour and sleep.
+Based on the smriti written by Vaaghbhatt there are 500 sutras on the cow (panchagavya). We can prepare around 300 different medicines based on the combinations of panchagavya and herbs. The trigunas (Human body is a merge of triguna, - Vaat, pitta, kapha) can be balanced soon with the use of cow-based products. if all these three are in a balance, then we are healthy and we will not fall prey to any disease. Deadly disease like cancer , diabetics can also be cured with the help of Distilled cow urine.
+Basing on this spirit we have started making panchagavya products for good health. (panchagavyas-milk/curd/ghee/cow dung/ urine), are the five holy things which we get by means of blessings from Gaumata)
+We can prepare good quality natural fast moving consumer goods based on the items which we get from the cow. Products with no side effects, fine results, healthy and qualitatively very superior products can be prepared. (Tooth to foot) all products which we use daily can be manufactured based on the cow. Cow based living, agriculture and economy is totally ecofriendly.
+
+@ BRUNDAVANAM We are committed for training the local farmers to create awareness on Cow based forming and its effects on environment and society.
+@ BRUNDAVANAM, we use only DESI SEED for PADDY/VEGETABLES/FRUITS cultivation.
+@ BRUNDAVANAM, we want to train people in making Panchagavya products
