@@ -61,8 +61,13 @@ const translations = {
   homeLinkHeader: "Home",
   productsLinkHeader:"Products",
   visionLinkHeader:"Vision",
-  // aboutUsLinkHeader:"About Us",
   contactUsLinkHeader:"Contact Us",
+  sahajaKunkumaLinkHeader:"Sahaja Kunkuma",
+  amruthaDharaLinkHeader:"Amrutha Dhara",
+  panchagavyaGhrutamLinkHeader:"Panchagavya Ghrutam",
+  GauDantManjanLinkHeader:"Gau-Dant Manjan",
+  gomayadiTailamLinkHeader:"Gomayadi Tailam",
+  gauDharaLinkHeader:"Gau Dhara",
   //view all products------
   viewAllProducts:"View All Products",
 
@@ -130,8 +135,13 @@ logoBrundavanam: "బృందావనం",
 homeLinkHeader: "హోమ్ పేజీ",
 productsLinkHeader:"ఉత్పత్తులు",
 visionLinkHeader:"మా ఆలోచన",
-// aboutUsLinkHeader:"మా గురించి",
 contactUsLinkHeader:"సంప్రదింపు పేజీ",
+sahajaKunkumaLinkHeader:"సహజ కుంకుమ",
+amruthaDharaLinkHeader:"అమృత ధార",
+panchagavyaGhrutamLinkHeader:"పంచగవ్య ఘృతము",
+GauDantManjanLinkHeader:"గో-దంతమంజన్ పళ్ళ పొడి",
+gomayadiTailamLinkHeader:"గోమయాది తైలం",
+gauDharaLinkHeader:"గోధార",
 //view all products------
 viewAllProducts:"అన్ని ఉత్పత్తులను వీక్షించండి",
 
@@ -204,8 +214,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const homeLinkHeader=document.getElementById("homeLinkHeader");
 const productsLinkHeader=document.getElementById("productsLinkHeader");
 const visionLinkHeader=document.getElementById("visionLinkHeader");
-// const aboutUsLinkHeader=document.getElementById("aboutUsLinkHeader");
 const contactUsLinkHeader=document.getElementById("contactUsLinkHeader");
+const sahajaKunkumaLinkHeader=document.getElementById("sahajaKunkumaLinkHeader");
+
+const amruthaDharaLinkHeader=document.getElementById("amruthaDharaLinkHeader");
+
+const panchagavyaGhrutamLinkHeader=document.getElementById("panchagavyaGhrutamLinkHeader");
+
+const GauDantManjanLinkHeader=document.getElementById("GauDantManjanLinkHeader");
+
+const gomayadiTailamLinkHeader=document.getElementById("gomayadiTailamLinkHeader");
+
+const gauDharaLinkHeader=document.getElementById("gauDharaLinkHeader");
+
 //view all products-------
 const viewAllProducts=document.getElementById("viewAllProducts"); 
   const setLanguage = (language) => {
@@ -268,8 +289,14 @@ const viewAllProducts=document.getElementById("viewAllProducts");
     homeLinkHeader.innerText=content.homeLinkHeader;
     productsLinkHeader.innerText=content.productsLinkHeader;
     visionLinkHeader.innerText=content.visionLinkHeader;
-    // aboutUsLinkHeader.innerText=content.aboutUsLinkHeader;
     contactUsLinkHeader.innerText=content.contactUsLinkHeader;
+    sahajaKunkumaLinkHeader.innerText=content.sahajaKunkumaLinkHeader;
+    amruthaDharaLinkHeader.innerText=content.amruthaDharaLinkHeader;
+    panchagavyaGhrutamLinkHeader.innerText=content.panchagavyaGhrutamLinkHeader;
+    GauDantManjanLinkHeader.innerText=content.GauDantManjanLinkHeader;
+    gomayadiTailamLinkHeader.innerText=content.gomayadiTailamLinkHeader;
+    gauDharaLinkHeader.innerText=content.gauDharaLinkHeader;
+
     //view all products------
     viewAllProducts.innerText=content.viewAllProducts;
   };

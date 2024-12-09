@@ -10,6 +10,10 @@
     />
     <title>Brundavanam</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -17,9 +21,9 @@
     />
     <link rel="stylesheet" href="css/aboutUs.css" />
   </head>
-  <body class="page-content">
+  <body>
     <!-- ----------headers------- -->
-    <marquee
+    <!-- <marquee
       class="scroll-left scroll"
       behavior="scroll"
       direction="left"
@@ -30,7 +34,7 @@
       to save our mother, for the health and wealth of the mankind. we never
       expect/demand any donations by any means. We expect you to buy our
       Gaushala products to support us and save gouvansh.
-    </marquee>
+    </marquee> -->
     <!-- <h1 id="h1">Select a language</h1> -->
     <!-- <select id="sel">
       <option value="en">English</option>
@@ -51,23 +55,13 @@
     <!-- <a href="index.html" id="backLink">Go Back to Previous Page</a> -->
     <!-- ------------header one-------------- -->
 
-    <div class="header offersHeader">
+    <!-- <div class="header offersHeader">
       <a href="#" class="logo">
         <img src="images/brundhavanamlogo.jpeg" alt="brindavan logo" />
         <h4 class="logoName websiteName" id="logoBrundavanam">BRUNDAVANAM</h4>
       </a>
-      <!-- <div class="search-container">
-        <form action="/action_page.php">
-          <input
-            type="text"
-            placeholder="search for products..."
-            class="searchProducts"
-            name="search"
-          />
-        </form>
-      </div> -->
+     
       <div class="socialMedia icon">
-        <!-- <div class="facebook"> -->
         <a
           class="responsivesocialMedia"
           href="https://www.facebook.com/profile.php?id=61565490178430"
@@ -78,16 +72,12 @@
             alt="facebook"
           />
         </a>
-        <!-- </div> -->
-        <!-- <div class="facebook"> -->
         <a class="responsivesocialMedia" href="#" target="_blank">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png"
             alt="instagram"
           />
         </a>
-        <!-- </div> -->
-        <!-- <div class="facebook"> -->
         <a class="responsivesocialMedia" href="#" target="_blank">
           <img
             src="https://icon2.cleanpng.com/20240402/kzp/transparent-x-logo-woman-black-and-white-photography-street-fa-woman-in-dark-clothing-walking-determinedly660c4b50383a25.14507568.webp"
@@ -95,7 +85,6 @@
           />
         </a>
 
-        <!-- </div> -->
         <a
           class="responsivesocialMedia"
           href="https://www.youtube.com/@BrundavanamGaushala"
@@ -152,396 +141,548 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="#" class="logo nav__logo nav-link" data-page="index">
+            <img src="images/brundhavanamlogo.jpeg" alt="brundavanam logo" />
+            <div class="brundavanamName" id="logoBrundavanam">BRUNDAVANAM</div>
+          </a>
 
-    <!-- ----------headers------- -->
-    <!-- ------------products heading--------- -->
-    <div class="row productHeaderRow mt-3">
-      <div class="card text-center col-lg-11">
-        <div class="card-body">
-          <div class="card-title productHeaderTitle" id="visionPageTitle">
-            Vision
-          </div>
-          <div class="navigation">
-            <a
-              href="#"
-              class="nav-link productHeaderNavButton"
-              data-page="index"
-              id="homeLink"
-              >Home
-            </a>
-            <a
-              href=""
-              class="productHeaderNavButton"
-              id="visionLink"
-              data-page="Vision"
-            >
-              / Vision
-            </a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- ------------products heading--------- -->
-    <!-- -----------------About us page description---------------- -->
+        <!-- -------------nav menu------ -->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a
+                href="/"
+                class="nav__link nav-link"
+                data-page="index"
+                id="homeLinkHeader"
+                ><span id="homeLinkHeader">Home</span></a
+              >
+            </li>
 
-    <div class="row mt-3 aboutUsContentCard">
-      <div class="card aboutUsContent">
-        <div class="row aboutGaumata" id="mainContentOfWebsite">
-          Gaumata is Viswa Mata. It gives everything, whatever required for this
-          world. In turn it won’t expect anything from us. It’s our
-          responsibility to save our mother, for the health and wealth of the
-          mankind. we never expect/demand any donations by any means. We expect
-          you to buy our Gaushala products to support us and save gouvansh.
-        </div>
-        <div class="row videoDiv block">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/8igtD1td-0s?si=YiCUlZLUsN6I8FbM"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="row aboutUsHeadings" id="headingNumberOne">Our Story</div>
+            <li>
+              <a href="/" class="nav__link nav-link" data-page="Vision"
+                ><span id="visionLinkHeader">Vision</span></a
+              >
+            </li>
+            <!-- --------dropdown 1----- -->
+            <!-- <li class="dropdown__item">
+              <div class="nav__link">
+                Analytics<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
 
-        <div class="row ourStory">
-          <div class="col-lg-7 col-md-12 col-sm-12 block">
-            <div class="ourStoryDescription">
-              <ul>
-                <li id="sentenceOne">
-                  We started our journey in 2015 @ BRUNDAVANAM, as a cow-based
-                  farming station.
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="#" class="dropdown__link">
+                    <i class="ri-pie-chart-line"></i>Overview
+                  </a>
                 </li>
-                <li id="sentenceTwo">
-                  @BRUNDAVANAM has many geographical significances. Its on the
-                  foot of Eastern ghats, with abundant water resources. And
-                  also, very convenient for rearing cows with lot of scope for
-                  grazing.
+                <li>
+                  <a href="#" class="dropdown__link">
+                    <i class="ri-arrow-up-down-line"></i>Transactions
+                  </a>
+                </li> -->
+            <!-- -------dropdown submenu------- -->
+            <!-- <li class="dropdown__subitem">
+                  <div class="dropdown__link">
+                    <i class="ri-bar-chart-line"></i>Reports
+                    <i class="ri-add-line dropdown__add"></i>
+                  </div>
+
+                  <ul class="dropdown__submenu">
+                    <li>
+                      <a href="#" class="dropdown__sublink">
+                        <i class="ri-file-list-line"></i>Documents
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__sublink">
+                        <i class="ri-cash-line"></i>Payments
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__sublink">
+                        <i class="ri-refund-2-line"></i>Refunds
+                      </a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
-            </div>
-          </div>
-          <div class="col-lg-5 col-md-12 col-sm-12 ourStoryImage block">
-            <img
-              src="https://rukminim2.flixcart.com/image/850/1000/xif0q/religious-frame/9/f/r/8-kam1-maharajas-original-imagsju8duuvyf7v.jpeg?q=90&crop=false"
-              alt="person image"
-              class="user-image"
-            />
-          </div>
-        </div>
-        <div class="row ourStory">
-          <div class="col-lg-5 col-md-12 col-sm-12 ourStoryImage block">
-            <img
-              src="images/gobarGas.png"
-              alt="person image"
-              class="user-image"
-            />
-          </div>
-          <div class="col-lg-7 col-md-12 col-sm-12 block">
-            <div class="ourStoryDescription">
-              <ul>
-                <li id="sentenceThree">
-                  @ BRUNDAVANAM first we have developed a Gobar Gas plant with a
-                  dual purpose of getting clean fuel for cooking and CHEMICAL
-                  FREE manure for the soil.
-                </li>
-                <li id="sentenceFour">
-                  @ BRUNDAVANAM Since 2016 with the guidance of PUJYA GURU Shri
-                  Raghvendra Jadeja, we have started Desi cow breed development
-                  program.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row ourStory">
-          <div class="col-lg-7 col-md-12 col-sm-12 block">
-            <div class="ourStoryDescription">
-              <ul>
-                <li id="sentenceFive">
-                  The most important aspect is ,its very close to forest where
-                  lot of herbs are available which are essential in making
-                  panchagavya medicines.
-                </li>
-                <li id="sentenceSix">
-                  @ BRUNDAVANAM we have developed a healthy herd by giving all
-                  the necessary nutrition required for then in few generations
-                  .we feed them good, we breed them good. we reared the calves
-                  with open heart and always grow them by giving due share of
-                  milk for them. We have grown our own fodder without any
-                  chemical festination .
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-5 col-md-12 col-sm-12 ourStoryImage block">
-            <img
-              src="images/carouselThree.png"
-              alt="person image"
-              class="user-image"
-            />
-          </div>
-        </div>
-        <div class="row aboutUsHeadings" id="headingNumberTwo">Mission</div>
-        <div class="row ourStory">
-          <div class="col-md-5 col-lg-5 ourStoryImage block">
-            <img
-              src=" https://media.licdn.com/dms/image/C561BAQHL1q12FsLFyA/company-background_10000/0/1639481174730/krushak_swaraj_cover?e=2147483647&v=beta&t=hxfUShkQWhq21H1Ku5TdMllM1Gun0zwangRG37UuVRA"
-              alt="person image"
-              class="user-image"
-            />
-          </div>
-          <div class="col-lg-7 col-md-12 col-sm-12 block">
-            <div class="ourStoryDescription">
-              <ul>
-                <li id="sentenceSeven">
-                  @ BRUNDAVANAM We are committed for training the local farmers
-                  to create awareness on Cow based farming and its effects on
-                  environment and society.
-                </li>
-                <li id="sentenceEight">
-                  @ BRUNDAVANAM, we are committed for training people in making
-                  Panchagavya products.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!--
-              src="https://agasthyaayurveda.in/wp-content/uploads/2012/07/3.jpg"
-              -->
-        </div>
-        <div class="row ourStory">
-          <div class="col-lg-7 col-md-12 col-sm-12 block">
-            <div class="ourStoryDescription">
-              <ul>
-                <li id="sentenceNine">
-                  Based on the smriti written by Vaaghbhatt there are 500 sutras
-                  on the cow (panchagavya).
-                </li>
-                <li id="sentenceTen">
-                  We can prepare around 300 different medicines based on the
-                  combinations of panchagavya and herbs.
-                </li>
-                <li id="sentenceEleven">
-                  The trigunas (Human body is a merge of triguna, - Vaat, pitta,
-                  kapha) can be balanced soon with the use of cow-based
-                  products. if all these three are in a balance, then we are
-                  healthy and we will not fall prey to any disease.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!--
-              src="https://agasthyaayurveda.in/wp-content/uploads/2012/07/3.jpg"
-              -->
-          <div class="col-lg-5 col-md-12 col-sm-12 ourStoryImage block">
-            <img
-              src="https://i.pinimg.com/originals/d5/4a/63/d54a63f4f8abbe4d1293db10a81e022a.jpg"
-              alt="person image"
-              class="user-image"
-            />
-          </div>
-        </div>
-        <!-- src="https://www.researchgate.net/profile/Dirgha-Joshi/publication/334988519/figure/fig1/AS:788810480750594@1565078482528/Panchagavya-formulation-constituents_Q320.jpg" -->
-        <!-- src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHzU5H32CetUiZqFUYpvGMObadKkIAVD6kzEbR4oice0y0ZeQxR5HUYAXgSES5aQnwNu8&usqp=CAU" -->
+            </li> -->
 
-        <div class="row ourStory">
-          <div class="col-lg-5 col-md-12 col-sm-12 ourStoryImage block">
-            <img
-              src="https://www.performyoga.com/wp-content/uploads/2020/04/performyoga-bangalore-rakesh-panchgavya1.jpg"
-              alt="person image"
-              class="user-image"
-            />
-          </div>
-          <div class="col-lg-7 col-md-12 col-sm-12 block">
-            <div class="ourStoryDescription">
-              <ul>
-                <li id="sentenceTwelve">
-                  Deadly disease like cancer , diabetics can also be cured with
-                  the help of Distilled cow urine.
-                </li>
-                <li id="sentenceThirteen">
-                  (panchagavyas-milk/curd/ghee/cow dung/ urine), are the five
-                  holy things which we get by means of blessings from Gaumata
-                </li>
-                <li id="sentenceFourteen">
-                  Basing on this spirit we have started making panchagavya
-                  products for good health.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- -----------------About us page description---------------- -->
-
-    <!-- -----------------------section contact us---------------- -->
-
-    <section class="contactContainer">
-      <div class="row container">
-        <div class="col-md-5 contactInfo">
-          <div class="box">
-            <div class="icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                class="bi bi-boxes"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434zM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567zM7.5 9.933l-2.75 1.571v3.134l2.75-1.571zm1 3.134 2.75 1.571v-3.134L8.5 9.933zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567zm2.242-2.433V3.504L8.5 5.076V8.21zM7.5 8.21V5.076L4.75 3.504v3.134zM5.258 2.643 8 4.21l2.742-1.567L8 1.076zM15 9.933l-2.75 1.571v3.134L15 13.067zM3.75 14.638v-3.134L1 9.933v3.134z"
-                />
-              </svg>
-            </div>
-            <div class="text">
-              <h3 id="productsHeadingFooter">Products</h3>
-
-              <a
-                class="productsInFooter nav-link"
-                href="/GauDharaUniversalPainReliefOil.html"
-                id="GauDharaInFooter"
-                data-page="GauDharaUniversalPainReliefOil"
-                >Gau Dhara Universal Pain Relief Oil</a
-              >
-
-              <a
-                class="productsInFooter nav-link"
-                href="/GomayadiTailamEarDrops.html"
-                data-page="GomayadiTailamEarDrops"
-                id="gomayadiTailamInFooter"
-                >Gomayadi Tailam Ear Drops</a
-              >
-
-              <a
-                class="productsInFooter nav-link"
-                href="/GauDantManjanToothPowder.html"
-                data-page="GauDantManjanToothPowder"
-                id="gauDantManjanFooter"
-                >Gau-Dant Manjan Tooth Powder</a
-              >
-
-              <a
-                class="productsInFooter nav-link"
-                href="/PanchagavyaGhrutam.html"
-                data-page="PanchagavyaGhrutam"
-                id="panchagavyaGhrutamFooter"
-                >Panchagavya Ghrutam Nasal Drops</a
-              >
-
-              <a
-                class="productsInFooter nav-link"
-                href="/SahajaKunkuma.html"
-                data-page="SahajaKunkuma"
-                id="sahajaKunkumaFooter"
-                >Sahaja Kunkuma Red Sindoor</a
-              >
-
-              <a
-                class="productsInFooter nav-link"
-                href="/AmruthaDhara.html"
-                data-page="AmruthaDhara"
-                id="amruthaDharaFooter"
-                >Amrutha Dhara</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 contactInfo">
-          <div class="box">
-            <div class="icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                class="bi bi-geo-alt-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
-                />
-              </svg>
-            </div>
-            <div class="text">
-              <h3 id="addressHeadingFooter">Address</h3>
-              <p id="addressContentFooter">
-                4-8,C/O Sree Raghvendra Brundavanam, Garellavalasa Post,Salur,
-                Pachipenta Mandal, Manyam Parvathipuram District,India, Andhra
-                Pradesh-535592
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 contactInfo">
-          <div class="box">
-            <div class="icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                class="bi bi-telephone-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
-                />
-              </svg>
-            </div>
-            <div class="text">
-              <h3 id="phoneHeadingFooter">Phone</h3>
-              <p>+91 9492602499</p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                class="bi bi-envelope-at-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"
-                />
-                <path
-                  d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"
-                />
-              </svg>
-            </div>
-            <div class="text">
-              <h3 id="emailHeadingFooter">Email</h3>
-              <p>
-                <a
-                  class="productsInFooter"
-                  href="mailto:care@bhav.am"
-                  target="_blank"
-                  >care@bhav.am</a
+            <!-- --------dropdown 2----- -->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                <a href="#" class="nav__link nav-link" data-page="products">
+                  <span id="productsLinkHeader"> Products </span></a
                 >
-              </p>
+
+                <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a
+                    href="#"
+                    class="dropdown__link nav-link"
+                    data-page="SahajaKunkuma"
+                    id="sahajaKunkumaLinkHeader"
+                  >
+                    Sahaja Kunkuma
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="dropdown__link nav-link"
+                    data-page="GomayadiTailamEarDrops"
+                    id="gomayadiTailamLinkHeader"
+                  >
+                    Gomayaadi tailam
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="dropdown__link nav-link"
+                    data-page="PanchagavyaGhrutam"
+                    id="panchagavyaGhrutamLinkHeader"
+                  >
+                    Panchagavya grutam
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="dropdown__link nav-link"
+                    data-page="GauDharaUniversalPainReliefOil"
+                    id="gauDharaLinkHeader"
+                  >
+                    Gau Dhara
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="dropdown__link nav-link"
+                    data-page="GauDantManjanToothPowder"
+                    id="GauDantManjanLinkHeader"
+                  >
+                    Gau-Dant Manjan
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="dropdown__link nav-link"
+                    data-page="AmruthaDhara"
+                    id="amruthaDharaLinkHeader"
+                  >
+                    Amrutha Dhara
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#" class="nav__link nav-link" data-page="contactPage"
+                ><span id="contactUsLinkHeader">Contact Us</span></a
+              >
+            </li>
+            <li>
+              <div class="languageSection">
+                <select id="sel">
+                  <option value="en" selected>English</option>
+                  <option value="tel">తెలుగు</option>
+                </select>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- ----------headers------- -->
+    <div class="main-content page-content">
+      <!-- ------------products heading--------- -->
+      <div class="row productHeaderRow mt-3">
+        <div class="card text-center col-lg-11">
+          <div class="card-body">
+            <div class="card-title productHeaderTitle" id="visionPageTitle">
+              Vision
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- -----------------------section contact us---------------- -->
-    <!-- ---------------------------footer------------------------------ -->
-    <footer class="background">
-      <p class="text-footer">
-        Copyright &copy; 2024 Brundavanam - All Rights Reserved.
-      </p>
-    </footer>
+      <!-- ------------products heading--------- -->
+      <!-- -----------------About us page description---------------- -->
+
+      <div class="row mt-3 aboutUsContentCard">
+        <div class="card aboutUsContent">
+          <div class="row aboutGaumata" id="mainContentOfWebsite">
+            Gaumata is Viswa Mata. It gives everything, whatever required for
+            this world. In turn it won’t expect anything from us. It’s our
+            responsibility to save our mother, for the health and wealth of the
+            mankind. we never expect/demand any donations by any means. We
+            expect you to buy our Gaushala products to support us and save
+            gouvansh.
+          </div>
+          <div class="row videoDiv block">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/8igtD1td-0s?si=YiCUlZLUsN6I8FbM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="row aboutUsHeadings" id="headingNumberOne">Our Story</div>
+
+          <div class="row ourStory">
+            <div class="col-lg-7 col-md-12 col-sm-12 block">
+              <div class="ourStoryDescription">
+                <ul>
+                  <li id="sentenceOne">
+                    We started our journey in 2015 @ BRUNDAVANAM, as a cow-based
+                    farming station.
+                  </li>
+                  <li id="sentenceTwo">
+                    @BRUNDAVANAM has many geographical significances. Its on the
+                    foot of Eastern ghats, with abundant water resources. And
+                    also, very convenient for rearing cows with lot of scope for
+                    grazing.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 ourStoryImage block">
+              <img
+                src="https://rukminim2.flixcart.com/image/850/1000/xif0q/religious-frame/9/f/r/8-kam1-maharajas-original-imagsju8duuvyf7v.jpeg?q=90&crop=false"
+                alt="person image"
+                class="user-image"
+              />
+            </div>
+          </div>
+          <div class="row ourStory">
+            <div class="col-lg-5 col-md-12 col-sm-12 ourStoryImage block">
+              <img
+                src="images/gobarGas.png"
+                alt="person image"
+                class="user-image"
+              />
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 block">
+              <div class="ourStoryDescription">
+                <ul>
+                  <li id="sentenceThree">
+                    @ BRUNDAVANAM first we have developed a Gobar Gas plant with
+                    a dual purpose of getting clean fuel for cooking and
+                    CHEMICAL FREE manure for the soil.
+                  </li>
+                  <li id="sentenceFour">
+                    @ BRUNDAVANAM Since 2016 with the guidance of PUJYA GURU
+                    Shri Raghvendra Jadeja, we have started Desi cow breed
+                    development program.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row ourStory">
+            <div class="col-lg-7 col-md-12 col-sm-12 block">
+              <div class="ourStoryDescription">
+                <ul>
+                  <li id="sentenceFive">
+                    The most important aspect is ,its very close to forest where
+                    lot of herbs are available which are essential in making
+                    panchagavya medicines.
+                  </li>
+                  <li id="sentenceSix">
+                    @ BRUNDAVANAM we have developed a healthy herd by giving all
+                    the necessary nutrition required for then in few generations
+                    .we feed them good, we breed them good. we reared the calves
+                    with open heart and always grow them by giving due share of
+                    milk for them. We have grown our own fodder without any
+                    chemical festination .
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 ourStoryImage block">
+              <img
+                src="images/carouselThree.png"
+                alt="person image"
+                class="user-image"
+              />
+            </div>
+          </div>
+          <div class="row aboutUsHeadings" id="headingNumberTwo">Mission</div>
+          <div class="row ourStory">
+            <div class="col-md-5 col-lg-5 ourStoryImage block">
+              <img
+                src=" https://media.licdn.com/dms/image/C561BAQHL1q12FsLFyA/company-background_10000/0/1639481174730/krushak_swaraj_cover?e=2147483647&v=beta&t=hxfUShkQWhq21H1Ku5TdMllM1Gun0zwangRG37UuVRA"
+                alt="person image"
+                class="user-image"
+              />
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 block">
+              <div class="ourStoryDescription">
+                <ul>
+                  <li id="sentenceSeven">
+                    @ BRUNDAVANAM We are committed for training the local
+                    farmers to create awareness on Cow based farming and its
+                    effects on environment and society.
+                  </li>
+                  <li id="sentenceEight">
+                    @ BRUNDAVANAM, we are committed for training people in
+                    making Panchagavya products.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--
+              src="https://agasthyaayurveda.in/wp-content/uploads/2012/07/3.jpg"
+              -->
+          </div>
+          <div class="row ourStory">
+            <div class="col-lg-7 col-md-12 col-sm-12 block">
+              <div class="ourStoryDescription">
+                <ul>
+                  <li id="sentenceNine">
+                    Based on the smriti written by Vaaghbhatt there are 500
+                    sutras on the cow (panchagavya).
+                  </li>
+                  <li id="sentenceTen">
+                    We can prepare around 300 different medicines based on the
+                    combinations of panchagavya and herbs.
+                  </li>
+                  <li id="sentenceEleven">
+                    The trigunas (Human body is a merge of triguna, - Vaat,
+                    pitta, kapha) can be balanced soon with the use of cow-based
+                    products. if all these three are in a balance, then we are
+                    healthy and we will not fall prey to any disease.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--
+              src="https://agasthyaayurveda.in/wp-content/uploads/2012/07/3.jpg"
+              -->
+            <div class="col-lg-5 col-md-12 col-sm-12 ourStoryImage block">
+              <img
+                src="https://i.pinimg.com/originals/d5/4a/63/d54a63f4f8abbe4d1293db10a81e022a.jpg"
+                alt="person image"
+                class="user-image"
+              />
+            </div>
+          </div>
+          <!-- src="https://www.researchgate.net/profile/Dirgha-Joshi/publication/334988519/figure/fig1/AS:788810480750594@1565078482528/Panchagavya-formulation-constituents_Q320.jpg" -->
+          <!-- src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHzU5H32CetUiZqFUYpvGMObadKkIAVD6kzEbR4oice0y0ZeQxR5HUYAXgSES5aQnwNu8&usqp=CAU" -->
+
+          <div class="row ourStory">
+            <div class="col-lg-5 col-md-12 col-sm-12 ourStoryImage block">
+              <img
+                src="https://www.performyoga.com/wp-content/uploads/2020/04/performyoga-bangalore-rakesh-panchgavya1.jpg"
+                alt="person image"
+                class="user-image"
+              />
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 block">
+              <div class="ourStoryDescription">
+                <ul>
+                  <li id="sentenceTwelve">
+                    Deadly disease like cancer , diabetics can also be cured
+                    with the help of Distilled cow urine.
+                  </li>
+                  <li id="sentenceThirteen">
+                    (panchagavyas-milk/curd/ghee/cow dung/ urine), are the five
+                    holy things which we get by means of blessings from Gaumata
+                  </li>
+                  <li id="sentenceFourteen">
+                    Basing on this spirit we have started making panchagavya
+                    products for good health.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -----------------About us page description---------------- -->
+
+      <!-- -----------------------section contact us---------------- -->
+
+      <section class="contactContainer">
+        <div class="row container">
+          <div class="col-md-5 contactInfo">
+            <div class="box">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-boxes"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434zM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567zM7.5 9.933l-2.75 1.571v3.134l2.75-1.571zm1 3.134 2.75 1.571v-3.134L8.5 9.933zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567zm2.242-2.433V3.504L8.5 5.076V8.21zM7.5 8.21V5.076L4.75 3.504v3.134zM5.258 2.643 8 4.21l2.742-1.567L8 1.076zM15 9.933l-2.75 1.571v3.134L15 13.067zM3.75 14.638v-3.134L1 9.933v3.134z"
+                  />
+                </svg>
+              </div>
+              <div class="text">
+                <h3 id="productsHeadingFooter">Products</h3>
+
+                <a
+                  class="productsInFooter nav-link"
+                  href="/GauDharaUniversalPainReliefOil.html"
+                  id="GauDharaInFooter"
+                  data-page="GauDharaUniversalPainReliefOil"
+                  >Gau Dhara Universal Pain Relief Oil</a
+                >
+
+                <a
+                  class="productsInFooter nav-link"
+                  href="/GomayadiTailamEarDrops.html"
+                  data-page="GomayadiTailamEarDrops"
+                  id="gomayadiTailamInFooter"
+                  >Gomayadi Tailam Ear Drops</a
+                >
+
+                <a
+                  class="productsInFooter nav-link"
+                  href="/GauDantManjanToothPowder.html"
+                  data-page="GauDantManjanToothPowder"
+                  id="gauDantManjanFooter"
+                  >Gau-Dant Manjan Tooth Powder</a
+                >
+
+                <a
+                  class="productsInFooter nav-link"
+                  href="/PanchagavyaGhrutam.html"
+                  data-page="PanchagavyaGhrutam"
+                  id="panchagavyaGhrutamFooter"
+                  >Panchagavya Ghrutam Nasal Drops</a
+                >
+
+                <a
+                  class="productsInFooter nav-link"
+                  href="/SahajaKunkuma.html"
+                  data-page="SahajaKunkuma"
+                  id="sahajaKunkumaFooter"
+                  >Sahaja Kunkuma Red Sindoor</a
+                >
+
+                <a
+                  class="productsInFooter nav-link"
+                  href="/AmruthaDhara.html"
+                  data-page="AmruthaDhara"
+                  id="amruthaDharaFooter"
+                  >Amrutha Dhara</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 contactInfo">
+            <div class="box">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-geo-alt-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
+                  />
+                </svg>
+              </div>
+              <div class="text">
+                <h3 id="addressHeadingFooter">Address</h3>
+                <p id="addressContentFooter">
+                  4-8,C/O Sree Raghvendra Brundavanam, Garellavalasa Post,Salur,
+                  Pachipenta Mandal, Manyam Parvathipuram District,India, Andhra
+                  Pradesh-535592
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 contactInfo">
+            <div class="box">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-telephone-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+                  />
+                </svg>
+              </div>
+              <div class="text">
+                <h3 id="phoneHeadingFooter">Phone</h3>
+                <p>+91 9492602499</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-envelope-at-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"
+                  />
+                  <path
+                    d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"
+                  />
+                </svg>
+              </div>
+              <div class="text">
+                <h3 id="emailHeadingFooter">Email</h3>
+                <p>
+                  <a
+                    class="productsInFooter"
+                    href="mailto:care@bhav.am"
+                    target="_blank"
+                    >care@bhav.am</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -----------------------section contact us---------------- -->
+      <!-- ---------------------------footer------------------------------ -->
+      <footer class="background">
+        <p class="text-footer">
+          Copyright &copy; 2024 Brundavanam - All Rights Reserved.
+        </p>
+      </footer>
+    </div>
     <!-- -----------display products--------- -->
 
     <!-- ----------for hamburger------ -->
@@ -562,5 +703,7 @@
     ></script>
     <!-- ----------for hamburger------ -->
     <script src="js/aboutUs.js"></script>
+    <!-- ------navbar------ -->
+    <script src="js/navbar.js"></script>
   </body>
 </html>

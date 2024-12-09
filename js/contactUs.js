@@ -17,13 +17,23 @@ const translations = {
     phoneHeadingFooter:"Phone",
     emailHeadingFooter:"Email",
 //------scroll bar--------
-scrollBarSententce:"Gaumata is Viswa Mata. It gives everything, whatever required for this world. In turn it won’t expect anything from us. It’s our responsibility to save our mother, for the health and wealth of the mankind. we never expect/demand any donations by any means. We expect you to buy our Gaushala products to support us and save gouvansh.",
+// scrollBarSententce:"Gaumata is Viswa Mata. It gives everything, whatever required for this world. In turn it won’t expect anything from us. It’s our responsibility to save our mother, for the health and wealth of the mankind. we never expect/demand any donations by any means. We expect you to buy our Gaushala products to support us and save gouvansh.",
 
 //------header-------
 logoBrundavanam: "BRUNDAVANAM",
 contactUsPageTitle: "Contact Us",
-      homeLink: "Home",
-      contactUsLink:"/ Contact Us",
+homeLinkHeader: "Home",
+  productsLinkHeader:"Products",
+  visionLinkHeader:"Vision",
+  contactUsLinkHeader:"Contact Us",
+  sahajaKunkumaLinkHeader:"Sahaja Kunkuma",
+  amruthaDharaLinkHeader:"Amrutha Dhara",
+  panchagavyaGhrutamLinkHeader:"Panchagavya Ghrutam",
+  GauDantManjanLinkHeader:"Gau-Dant Manjan",
+  gomayadiTailamLinkHeader:"Gomayadi Tailam",
+  gauDharaLinkHeader:"Gau Dhara",
+      // homeLink: "Home",
+      // contactUsLink:"/ Contact Us",
       //------form-----
       letsGetInTouch:"Let's Get in Touch",
       sendMessage:"Send Message",
@@ -50,12 +60,23 @@ contactUsPageTitle: "Contact Us",
 
     // ----------footer language--------
     //------scroll bar-------
-scrollBarSententce:"గోమాత విశ్వమాత.ఈ భువనమంతటికీ పోషకురాలు.తల్లికి ఇవ్వటం తప్ప మననుండి ఏమీ ఆశించటం తెలియదు.సమస్త మానవాళి శ్రేయస్సు కోసం ఆ తల్లిని కాపాడుకోవటం మనందరి భాధ్యత.బృందావనం గోశాల తరుపున మేము ఎప్పుడు దానాలు ధర్మాలు కోరలేదు, భవిష్యత్తులో కోరబోము.గోమాతను కాపాడటం కోసం, సనాతనమైన మన ధర్మాన్ని నిలబెట్టటం కోసం, మీరు గోశాల తయారు చేసిన రసాయనాలు లేని పంచగవ్య ఉత్పత్తులను కొనమని మాత్రమే కోరుతున్నాము. దీని వల్ల గోవంశము నిలబడటమే కాక, మీ ఆరోగ్యాన్ని కాపాడుకున్న వారవుతారు.",
+// scrollBarSententce:"గోమాత విశ్వమాత.ఈ భువనమంతటికీ పోషకురాలు.తల్లికి ఇవ్వటం తప్ప మననుండి ఏమీ ఆశించటం తెలియదు.సమస్త మానవాళి శ్రేయస్సు కోసం ఆ తల్లిని కాపాడుకోవటం మనందరి భాధ్యత.బృందావనం గోశాల తరుపున మేము ఎప్పుడు దానాలు ధర్మాలు కోరలేదు, భవిష్యత్తులో కోరబోము.గోమాతను కాపాడటం కోసం, సనాతనమైన మన ధర్మాన్ని నిలబెట్టటం కోసం, మీరు గోశాల తయారు చేసిన రసాయనాలు లేని పంచగవ్య ఉత్పత్తులను కొనమని మాత్రమే కోరుతున్నాము. దీని వల్ల గోవంశము నిలబడటమే కాక, మీ ఆరోగ్యాన్ని కాపాడుకున్న వారవుతారు.",
     //------header-------
 logoBrundavanam: "బృందావనం",
 contactUsPageTitle: "సంప్రదింపు పేజీ",
-homeLink: "హోమ్ పేజీ",
-contactUsLink:"/ సంప్రదింపు పేజీ",
+homeLinkHeader: "హోమ్ పేజీ",
+productsLinkHeader:"ఉత్పత్తులు",
+visionLinkHeader:"మా ఆలోచన",
+contactUsLinkHeader:"సంప్రదింపు పేజీ",
+sahajaKunkumaLinkHeader:"సహజ కుంకుమ",
+amruthaDharaLinkHeader:"అమృత ధార",
+panchagavyaGhrutamLinkHeader:"పంచగవ్య ఘృతము",
+GauDantManjanLinkHeader:"గో-దంతమంజన్ పళ్ళ పొడి",
+gomayadiTailamLinkHeader:"గోమయాది తైలం",
+gauDharaLinkHeader:"గోధార",
+
+// homeLink: "హోమ్ పేజీ",
+// contactUsLink:"/ సంప్రదింపు పేజీ",
 //---------form------
 letsGetInTouch: "మమ్మల్ని సంప్రదించండి",
 sendMessage:"సందేశం పంపండి",
@@ -84,12 +105,27 @@ const phoneHeadingFooter=document.getElementById("phoneHeadingFooter");
 const emailHeadingFooter=document.getElementById("emailHeadingFooter");
 // ----------footer language--------
 //------scroll bar------
-const scrollBarSententce=document.getElementById("scrollBarSententce");
+// const scrollBarSententce=document.getElementById("scrollBarSententce");
 //-----header---
 const logoBrundavanam=document.getElementById("logoBrundavanam");
 const contactUsPageTitle=document.getElementById("contactUsPageTitle");
-const homeLink=document.getElementById("homeLink");
-const contactUsLink=document.getElementById("contactUsLink");
+const homeLinkHeader=document.getElementById("homeLinkHeader");
+const productsLinkHeader=document.getElementById("productsLinkHeader");
+const visionLinkHeader=document.getElementById("visionLinkHeader");
+const contactUsLinkHeader=document.getElementById("contactUsLinkHeader");
+const sahajaKunkumaLinkHeader=document.getElementById("sahajaKunkumaLinkHeader");
+
+const amruthaDharaLinkHeader=document.getElementById("amruthaDharaLinkHeader");
+
+const panchagavyaGhrutamLinkHeader=document.getElementById("panchagavyaGhrutamLinkHeader");
+
+const GauDantManjanLinkHeader=document.getElementById("GauDantManjanLinkHeader");
+
+const gomayadiTailamLinkHeader=document.getElementById("gomayadiTailamLinkHeader");
+
+const gauDharaLinkHeader=document.getElementById("gauDharaLinkHeader");
+// const homeLink=document.getElementById("homeLink");
+// const contactUsLink=document.getElementById("contactUsLink");
 //-----form-----
 const letsGetInTouch=document.getElementById("letsGetInTouch");
 const sendMessage=document.getElementById("sendMessage");
@@ -113,12 +149,22 @@ const sendMessage=document.getElementById("sendMessage");
      emailHeadingFooter.innerText=content.emailHeadingFooter;
      // ----------footer language--------
      //----------scroll bar---------
-    scrollBarSententce.innerText=content.scrollBarSententce;
+    // scrollBarSententce.innerText=content.scrollBarSententce;
     //-----header---
     logoBrundavanam.innerText=content.logoBrundavanam;
     contactUsPageTitle.innerText=content.contactUsPageTitle;
-    homeLink.innerText=content.homeLink;
-    contactUsLink.innerText=content.contactUsLink;
+    homeLinkHeader.innerText=content.homeLinkHeader;
+    productsLinkHeader.innerText=content.productsLinkHeader;
+    visionLinkHeader.innerText=content.visionLinkHeader;
+    contactUsLinkHeader.innerText=content.contactUsLinkHeader;
+    sahajaKunkumaLinkHeader.innerText=content.sahajaKunkumaLinkHeader;
+    amruthaDharaLinkHeader.innerText=content.amruthaDharaLinkHeader;
+    panchagavyaGhrutamLinkHeader.innerText=content.panchagavyaGhrutamLinkHeader;
+    GauDantManjanLinkHeader.innerText=content.GauDantManjanLinkHeader;
+    gomayadiTailamLinkHeader.innerText=content.gomayadiTailamLinkHeader;
+    gauDharaLinkHeader.innerText=content.gauDharaLinkHeader;
+    // homeLink.innerText=content.homeLink;
+    // contactUsLink.innerText=content.contactUsLink;
     //---form--
     letsGetInTouch.innerText=content.letsGetInTouch;
     sendMessage.innerText=content.sendMessage;

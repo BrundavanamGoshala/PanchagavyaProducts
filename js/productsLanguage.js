@@ -3,9 +3,19 @@ const translations = {
     //   selct: "Select a language",
       logoBrundavanam: "BRUNDAVANAM",
       ourProducts: "Our Products",
-      homeLink: "Home",
-      ourProductsLink: "/ Our Products",
-      scrollBarSententce:"Gaumata is Viswa Mata. It gives everything, whatever required for this world. In turn it won’t expect anything from us. It’s our responsibility to save our mother, for the health and wealth of the mankind. we never expect/demand any donations by any means. We expect you to buy our Gaushala products to support us and save gouvansh.",
+      homeLinkHeader: "Home",
+  productsLinkHeader:"Products",
+  visionLinkHeader:"Vision",
+  contactUsLinkHeader:"Contact Us",
+  sahajaKunkumaLinkHeader:"Sahaja Kunkuma",
+  amruthaDharaLinkHeader:"Amrutha Dhara",
+  panchagavyaGhrutamLinkHeader:"Panchagavya Ghrutam",
+  GauDantManjanLinkHeader:"Gau-Dant Manjan",
+  gomayadiTailamLinkHeader:"Gomayadi Tailam",
+  gauDharaLinkHeader:"Gau Dhara",
+      // homeLink: "Home",
+      // ourProductsLink: "/ Our Products",
+      // scrollBarSententce:"Gaumata is Viswa Mata. It gives everything, whatever required for this world. In turn it won’t expect anything from us. It’s our responsibility to save our mother, for the health and wealth of the mankind. we never expect/demand any donations by any means. We expect you to buy our Gaushala products to support us and save gouvansh.",
       // ----------footer language--------
       productsHeadingFooter:"Products",
 
@@ -113,9 +123,19 @@ const translations = {
     //   selct: "ఒక భాషను ఎంచుకోండి",
       logoBrundavanam: "బృందావనం",
       ourProducts: "మా ఉత్పత్తులు",
-      homeLink: "హోమ్ పేజీ",
-      ourProductsLink: "/ మా ఉత్పత్తులు",
-      scrollBarSententce:"గోమాత విశ్వమాత.ఈ భువనమంతటికీ పోషకురాలు.తల్లికి ఇవ్వటం తప్ప మననుండి ఏమీ ఆశించటం తెలియదు.సమస్త మానవాళి శ్రేయస్సు కోసం ఆ తల్లిని కాపాడుకోవటం మనందరి భాధ్యత.బృందావనం గోశాల తరుపున మేము ఎప్పుడు దానాలు ధర్మాలు కోరలేదు, భవిష్యత్తులో కోరబోము.గోమాతను కాపాడటం కోసం, సనాతనమైన మన ధర్మాన్ని నిలబెట్టటం కోసం, మీరు గోశాల తయారు చేసిన రసాయనాలు లేని పంచగవ్య ఉత్పత్తులను కొనమని మాత్రమే కోరుతున్నాము. దీని వల్ల గోవంశము నిలబడటమే కాక, మీ ఆరోగ్యాన్ని కాపాడుకున్న వారవుతారు.",
+      homeLinkHeader: "హోమ్ పేజీ",
+      productsLinkHeader:"ఉత్పత్తులు",
+      visionLinkHeader:"మా ఆలోచన",
+      contactUsLinkHeader:"సంప్రదింపు పేజీ",
+      sahajaKunkumaLinkHeader:"సహజ కుంకుమ",
+amruthaDharaLinkHeader:"అమృత ధార",
+panchagavyaGhrutamLinkHeader:"పంచగవ్య ఘృతము",
+GauDantManjanLinkHeader:"గో-దంతమంజన్ పళ్ళ పొడి",
+gomayadiTailamLinkHeader:"గోమయాది తైలం",
+gauDharaLinkHeader:"గోధార",
+      // homeLink: "హోమ్ పేజీ",
+      // ourProductsLink: "/ మా ఉత్పత్తులు",
+      // scrollBarSententce:"గోమాత విశ్వమాత.ఈ భువనమంతటికీ పోషకురాలు.తల్లికి ఇవ్వటం తప్ప మననుండి ఏమీ ఆశించటం తెలియదు.సమస్త మానవాళి శ్రేయస్సు కోసం ఆ తల్లిని కాపాడుకోవటం మనందరి భాధ్యత.బృందావనం గోశాల తరుపున మేము ఎప్పుడు దానాలు ధర్మాలు కోరలేదు, భవిష్యత్తులో కోరబోము.గోమాతను కాపాడటం కోసం, సనాతనమైన మన ధర్మాన్ని నిలబెట్టటం కోసం, మీరు గోశాల తయారు చేసిన రసాయనాలు లేని పంచగవ్య ఉత్పత్తులను కొనమని మాత్రమే కోరుతున్నాము. దీని వల్ల గోవంశము నిలబడటమే కాక, మీ ఆరోగ్యాన్ని కాపాడుకున్న వారవుతారు.",
 // ----------footer language--------
 productsHeadingFooter:"ఉత్పత్తులు",
 GauDharaInFooter:"గో ధార యూనివర్సల్ పెయిన్ రిలీఫ్ ఆయిల్",
@@ -221,9 +241,24 @@ emailHeadingFooter:"ఇమెయిల్",
     const languageSelect = document.querySelector("#sel");
     const logoBrundavanam = document.getElementById("logoBrundavanam");
     const ourProducts = document.getElementById("ourProducts");
-    const homeLink = document.getElementById("homeLink");
-    const ourProductsLink = document.getElementById("ourProductsLink");
-    const scrollBarSententce=document.getElementById("scrollBarSententce");
+    const homeLinkHeader=document.getElementById("homeLinkHeader");
+const productsLinkHeader=document.getElementById("productsLinkHeader");
+const visionLinkHeader=document.getElementById("visionLinkHeader");
+const contactUsLinkHeader=document.getElementById("contactUsLinkHeader");
+const sahajaKunkumaLinkHeader=document.getElementById("sahajaKunkumaLinkHeader");
+
+const amruthaDharaLinkHeader=document.getElementById("amruthaDharaLinkHeader");
+
+const panchagavyaGhrutamLinkHeader=document.getElementById("panchagavyaGhrutamLinkHeader");
+
+const GauDantManjanLinkHeader=document.getElementById("GauDantManjanLinkHeader");
+
+const gomayadiTailamLinkHeader=document.getElementById("gomayadiTailamLinkHeader");
+
+const gauDharaLinkHeader=document.getElementById("gauDharaLinkHeader");
+    // const homeLink = document.getElementById("homeLink");
+    // const ourProductsLink = document.getElementById("ourProductsLink");
+    // const scrollBarSententce=document.getElementById("scrollBarSententce");
     const root = document.getElementById("root");
     const anchors = document.querySelectorAll(".nav-link");
     // ----------footer language--------
@@ -257,9 +292,19 @@ emailHeadingFooter:"ఇమెయిల్",
       const content = translations[language] || translations.en;
       logoBrundavanam.innerText = content.logoBrundavanam;
       ourProducts.innerText = content.ourProducts;
-      homeLink.innerText = content.homeLink;
-      ourProductsLink.innerText = content.ourProductsLink;
-      scrollBarSententce.innerText=content.scrollBarSententce;
+      homeLinkHeader.innerText=content.homeLinkHeader;
+    productsLinkHeader.innerText=content.productsLinkHeader;
+    visionLinkHeader.innerText=content.visionLinkHeader;
+    contactUsLinkHeader.innerText=content.contactUsLinkHeader;
+    sahajaKunkumaLinkHeader.innerText=content.sahajaKunkumaLinkHeader;
+    amruthaDharaLinkHeader.innerText=content.amruthaDharaLinkHeader;
+    panchagavyaGhrutamLinkHeader.innerText=content.panchagavyaGhrutamLinkHeader;
+    GauDantManjanLinkHeader.innerText=content.GauDantManjanLinkHeader;
+    gomayadiTailamLinkHeader.innerText=content.gomayadiTailamLinkHeader;
+    gauDharaLinkHeader.innerText=content.gauDharaLinkHeader;
+      // homeLink.innerText = content.homeLink;
+      // ourProductsLink.innerText = content.ourProductsLink;
+      // scrollBarSententce.innerText=content.scrollBarSententce;
     // ----------footer language--------
     productsHeadingFooter.innerText=content.productsHeadingFooter;
     GauDharaInFooter.innerText=content.GauDharaInFooter;
