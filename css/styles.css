@@ -48,12 +48,12 @@ a {
   border-radius: 3px;
   margin-top: 3rem;
 }
-/*
+
 .header .languageSection {
   position: fixed;
-  top: 3rem;
-  right: 25px;
-} */
+  top: 0rem;
+  right: 9rem;
+}
 
 /* ------------ main content of website-------------- */
 .aboutUsContent {
@@ -843,7 +843,7 @@ ul {
 }
 
 .brundavanamName {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   margin-left: 0.8rem;
   color: #198e57;
 }
@@ -865,6 +865,7 @@ ul {
   font-size: 1.25rem;
   cursor: pointer;
   transition: opacity 0.1s, transform 0.4s;
+  margin-right: 1.5rem;
 }
 .nav__close {
   opacity: 0;
@@ -895,18 +896,26 @@ ul {
     background-color: var(--black-color);
     padding-top: 1rem;
   }
+  /* .languageSection {
+    display: block;
+  } */
 
   .brundavanamName {
-    margin-left: 0.5rem;
+    margin-left: 1rem;
   }
   .logo img {
     width: 4rem;
+    margin: -1rem;
   }
   .main-content {
     padding-top: 7rem;
   }
   .dropdown__item div {
     padding: 0rem 1.25rem 0rem 0.3rem;
+  }
+  /* -ch- */
+  .header .languageSection {
+    right: 0rem;
   }
 }
 
@@ -1185,6 +1194,20 @@ ul {
 }
 .card-deck {
   margin: 3rem 6rem 1rem 6rem;
+}
+
+/* ----social media----- */
+.socialMediaInNavBar {
+  color: white;
+  font-size: 2.2rem;
+  margin: 0.5rem;
+  justify-content: center;
+  display: flex;
+}
+
+.socialMediaInNavBar a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* --------animation on scroll--------- */

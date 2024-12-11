@@ -50,6 +50,23 @@ html {
   /* z-index: var(--z-fixed); */
   z-index: 1000; /* You can adjust the z-index as needed */
 }
+/* ---------language select box------- */
+
+.header .languageSection select {
+  width: 5.5rem;
+  height: 2rem;
+  /* margin-right: 11rem; */
+  /* margin-top: 5.6rem; */
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-top: 3rem;
+}
+
+.header .languageSection {
+  position: fixed;
+  top: 0rem;
+  right: 9rem;
+}
 /* -c- */
 /* .header a {
   float: left;
@@ -162,7 +179,7 @@ a {
 }
 
 .brundavanamName {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   margin-left: 0.8rem;
   color: #198e57;
 }
@@ -184,6 +201,7 @@ a {
   font-size: 1.25rem;
   cursor: pointer;
   transition: opacity 0.1s, transform 0.4s;
+  margin-right: 1.5rem;
 }
 .nav__close {
   opacity: 0;
@@ -215,17 +233,22 @@ a {
     padding-top: 1rem;
   }
   .brundavanamName {
-    margin-left: 0.5rem;
+    margin-left: 1rem;
   }
   /* -c- */
   .logo img {
     width: 4rem;
+    margin: -1rem;
   }
   .main-content {
     padding-top: 7rem;
   }
   .dropdown__item div {
     padding: 0rem 1.25rem 0rem 0.3rem;
+  }
+  /* -ch- */
+  .header .languageSection {
+    right: 0rem;
   }
 }
 
@@ -463,16 +486,7 @@ a {
   justify-content: center;
   margin: 3rem;
 } */
-/* ---------language select box------- */
-.header .languageSection select {
-  width: 5.5rem;
-  height: 2rem;
-  /* margin-right: 11rem; */
-  /* margin-top: 5.6rem; */
-  border: 2px solid black;
-  border-radius: 3px;
-  margin-top: 3rem;
-}
+
 /* .header .languageSection select {
   width: 5.5rem;
   height: 2rem;
@@ -862,13 +876,24 @@ a {
       width: 25%;
     } */
   /* ----change------ */
-  .header .languageSection select {
-    /* width: 2.5rem;
+  /* .header .languageSection select { */
+  /* width: 2.5rem;
     height: 2rem;
     border: 1px solid black;
     margin-right: 0rem;
     margin-top: 5rem; */
-    margin: 1rem 0rem 0rem 1rem;
+  /* margin: 1rem 0rem 0rem 1rem; */
+  /* } */
+  /* ------language selection------- */
+  .header .languageSection select {
+    width: 2.5rem;
+    height: 2rem;
+    border: 1px solid black;
+
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+
+    /* margin: 1rem 0rem 0rem 1rem; */
   }
   /* -------main content--------- */
   .aboutGaumata {
@@ -885,13 +910,13 @@ a {
   /* ------language selection------- */
 
   .header .languageSection select {
-    /* width: 5.5rem;
+    width: 5.5rem;
     height: 2rem;
     margin-right: 11rem;
     margin-top: 5.6rem;
     border: 2px solid black;
-    border-radius: 3px; */
-    margin: 1rem 0rem 0rem 1rem;
+    border-radius: 3px;
+    /* margin: 1rem 0rem 0rem 1rem; */
   }
 }
 @media (max-width: 600px) {
@@ -971,6 +996,18 @@ a {
   /* .btn-price {
     width: 100%;
   } */
+}
+/* ----social media----- */
+.socialMediaInNavBar {
+  color: white;
+  font-size: 2.2rem;
+  margin: 0.5rem;
+  justify-content: center;
+  display: flex;
+}
+.socialMediaInNavBar a {
+  text-decoration: none;
+  cursor: pointer;
 }
 /* @media (max-width: 768px) {
   .header .whatsapp .responsiveWhatsapp {
