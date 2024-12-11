@@ -123,16 +123,15 @@ html {
   margin-top: 5rem;
 }
 /* ------change----- */
-.header .whatsapp .whatsappButton {
+/* .header .whatsapp .whatsappButton {
   position: fixed;
-  /* margin-top: 1.5rem; */
   top: 8rem;
   right: 40px;
   padding-top: 1rem;
   padding-right: 1rem;
   cursor: pointer;
   height: 3rem;
-}
+} */
 /* ----------------header-styles------------------ */
 
 /* ------base------ */
@@ -820,7 +819,7 @@ img {
 
 /* --------------whatsapp and social media buttons---------- */
 
-.header .whatsapp a {
+/* .header .whatsapp a {
   position: fixed;
   margin-top: 0.3rem;
   top: 12rem;
@@ -862,27 +861,26 @@ img {
   padding: 0.2rem;
   transition: 0.5s;
   color: #fff;
-}
+} */
 
-.whatsappButton svg {
+/* .whatsappButton svg {
   position: absolute;
   top: 0.45em;
   right: 0.5em;
   margin: 0;
   padding: 0;
-  /* opacity: 0; */
   transition: 0.5s;
   height: 1em;
   fill: #fff;
-}
+} */
 
 /* .whatsappButton:hover svg {
     opacity: 1;
   } */
 
-.header .whatsapp .whatsappButton:hover {
+/* .header .whatsapp .whatsappButton:hover {
   background-color: #48c58b;
-}
+} */
 /* .header .whatsapp .whatsappButton:hover {
   margin-top: 1rem;
 } */
@@ -925,9 +923,9 @@ img {
   color: black;
   padding: 0.5rem;
 }
-.responsiveWhatsapp {
+/* .responsiveWhatsapp {
   display: none;
-}
+} */
 /* ----------responsive styles----------- */
 @media only screen and (max-width: 1140px) {
   .nav-list {
@@ -1069,13 +1067,13 @@ img {
     margin: 2rem 0rem 0rem 0rem;
   }
 
-  .responsivesocialMedia {
+  /* .responsivesocialMedia {
     display: none;
-  }
+  } */
   .search-container button {
     display: none;
   }
-  .header .whatsapp a {
+  /* .header .whatsapp a {
     top: 4rem;
   }
   .responsiveWhatsapp {
@@ -1083,7 +1081,7 @@ img {
   }
   .header .whatsappButton {
     display: none;
-  }
+  } */
 
   .btn-price {
     width: 100%;
@@ -1207,6 +1205,19 @@ img {
   text-decoration: none;
   cursor: pointer;
 }
+.whatsapp a {
+  position: fixed;
+  margin-top: 0.3rem;
+  top: 2.2rem;
+  right: 20px;
+}
+.whatsapp img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
 /* --------animation on scroll--------- */
 
 @keyframes appear {

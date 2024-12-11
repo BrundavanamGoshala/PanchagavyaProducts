@@ -1210,6 +1210,48 @@ ul {
   cursor: pointer;
 }
 
+.whatsapp a {
+  position: fixed;
+  margin-top: 0.3rem;
+  top: 2.2rem;
+  right: 20px;
+}
+.whatsapp img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* .socialMedia img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0.2rem;
+}
+.header .whatsapp .whatsappButton {
+  position: fixed;
+  top: 8rem;
+  right: 40px;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  height: 3rem;
+}
+.whatsappButton {
+  background-color: #3ab87d;
+  color: #fff;
+  border: 1px solid #25d366;
+  padding: 5px;
+  position: relative;
+  width: 8em;
+  height: 2.3em;
+  transition: 0.5s;
+  font-size: 17px;
+  border-radius: 0.9em;
+} */
+
 /* --------animation on scroll--------- */
 
 @keyframes appear {
