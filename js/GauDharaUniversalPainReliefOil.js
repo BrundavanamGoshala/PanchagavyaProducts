@@ -22,7 +22,7 @@ const translations = {
 // scrollBarSententce:"Gaumata is Viswa Mata. It gives everything, whatever required for this world. In turn it won’t expect anything from us. It’s our responsibility to save our mother, for the health and wealth of the mankind. we never expect/demand any donations by any means. We expect you to buy our Gaushala products to support us and save gouvansh.",
 //---------header--------
 logoBrundavanam: "BRUNDAVANAM",
-      ourProducts: "Our Products",
+      // ourProducts: "Our Products",
       homeLinkHeader: "Home",
   productsLinkHeader:"Products",
   visionLinkHeader:"Vision",
@@ -91,7 +91,7 @@ allKindsOfPain:"All kinds of pain",
 // scrollBarSententce:"గోమాత విశ్వమాత.ఈ భువనమంతటికీ పోషకురాలు.తల్లికి ఇవ్వటం తప్ప మననుండి ఏమీ ఆశించటం తెలియదు.సమస్త మానవాళి శ్రేయస్సు కోసం ఆ తల్లిని కాపాడుకోవటం మనందరి భాధ్యత.బృందావనం గోశాల తరుపున మేము ఎప్పుడు దానాలు ధర్మాలు కోరలేదు, భవిష్యత్తులో కోరబోము.గోమాతను కాపాడటం కోసం, సనాతనమైన మన ధర్మాన్ని నిలబెట్టటం కోసం, మీరు గోశాల తయారు చేసిన రసాయనాలు లేని పంచగవ్య ఉత్పత్తులను కొనమని మాత్రమే కోరుతున్నాము. దీని వల్ల గోవంశము నిలబడటమే కాక, మీ ఆరోగ్యాన్ని కాపాడుకున్న వారవుతారు.",
   //-------header-------
   logoBrundavanam: "బృందావనం",
-  ourProducts: "మా ఉత్పత్తులు",
+  // ourProducts: "మా ఉత్పత్తులు",
   homeLinkHeader: "హోమ్ పేజీ",
   productsLinkHeader:"ఉత్పత్తులు",
   visionLinkHeader:"మా ఆలోచన",
@@ -158,7 +158,7 @@ const emailHeadingFooter=document.getElementById("emailHeadingFooter");
 // const scrollBarSententce=document.getElementById("scrollBarSententce");
 //----------header-----------
 const logoBrundavanam = document.getElementById("logoBrundavanam");
-const ourProducts = document.getElementById("ourProducts");
+// const ourProducts = document.getElementById("ourProducts");
 const homeLinkHeader=document.getElementById("homeLinkHeader");
 const productsLinkHeader=document.getElementById("productsLinkHeader");
 const visionLinkHeader=document.getElementById("visionLinkHeader");
@@ -224,7 +224,7 @@ const setLanguage = (language) => {
     // scrollBarSententce.innerText=content.scrollBarSententce;
     //---------header-------
     logoBrundavanam.innerText = content.logoBrundavanam;
-      ourProducts.innerText = content.ourProducts;
+      // ourProducts.innerText = content.ourProducts;
       homeLinkHeader.innerText=content.homeLinkHeader;
     productsLinkHeader.innerText=content.productsLinkHeader;
     visionLinkHeader.innerText=content.visionLinkHeader;
