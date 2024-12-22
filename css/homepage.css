@@ -543,20 +543,6 @@
   margin: 3rem 6rem 1rem 6rem;
 }
 
-/* ----social media----- */
-.socialMediaInNavBar {
-  color: white;
-  font-size: 2.2rem;
-  margin: 0.5rem;
-  justify-content: center;
-  display: flex;
-}
-
-.socialMediaInNavBar a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
 /* --------animation on scroll--------- */
 
 @keyframes appear {

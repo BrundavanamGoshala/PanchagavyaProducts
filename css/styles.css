@@ -23,6 +23,19 @@ a {
 }
 /* ----------------------contact us section-------------------- */
 
+/* ----social media----- */
+.socialMediaInNavBar {
+  color: white;
+  font-size: 2.2rem;
+  margin: 0.5rem;
+  justify-content: center;
+  display: flex;
+}
+
+.socialMediaInNavBar a {
+  text-decoration: none;
+  cursor: pointer;
+}
 .contactContainer {
   position: relative;
   min-height: 50vh;

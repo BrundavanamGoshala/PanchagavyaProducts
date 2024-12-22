@@ -21,7 +21,7 @@ const translations = {
 
 //------header-------
 logoBrundavanam: "BRUNDAVANAM",
-contactUsPageTitle: "Contact Us",
+// contactUsPageTitle: "Contact Us",
 homeLinkHeader: "Home",
   productsLinkHeader:"Products",
   visionLinkHeader:"Vision",
@@ -63,7 +63,7 @@ homeLinkHeader: "Home",
 // scrollBarSententce:"గోమాత విశ్వమాత.ఈ భువనమంతటికీ పోషకురాలు.తల్లికి ఇవ్వటం తప్ప మననుండి ఏమీ ఆశించటం తెలియదు.సమస్త మానవాళి శ్రేయస్సు కోసం ఆ తల్లిని కాపాడుకోవటం మనందరి భాధ్యత.బృందావనం గోశాల తరుపున మేము ఎప్పుడు దానాలు ధర్మాలు కోరలేదు, భవిష్యత్తులో కోరబోము.గోమాతను కాపాడటం కోసం, సనాతనమైన మన ధర్మాన్ని నిలబెట్టటం కోసం, మీరు గోశాల తయారు చేసిన రసాయనాలు లేని పంచగవ్య ఉత్పత్తులను కొనమని మాత్రమే కోరుతున్నాము. దీని వల్ల గోవంశము నిలబడటమే కాక, మీ ఆరోగ్యాన్ని కాపాడుకున్న వారవుతారు.",
     //------header-------
 logoBrundavanam: "బృందావనం",
-contactUsPageTitle: "సంప్రదింపు పేజీ",
+// contactUsPageTitle: "సంప్రదింపు పేజీ",
 homeLinkHeader: "హోమ్ పేజీ",
 productsLinkHeader:"ఉత్పత్తులు",
 visionLinkHeader:"మా ఆలోచన",
@@ -108,7 +108,7 @@ const emailHeadingFooter=document.getElementById("emailHeadingFooter");
 // const scrollBarSententce=document.getElementById("scrollBarSententce");
 //-----header---
 const logoBrundavanam=document.getElementById("logoBrundavanam");
-const contactUsPageTitle=document.getElementById("contactUsPageTitle");
+// const contactUsPageTitle=document.getElementById("contactUsPageTitle");
 const homeLinkHeader=document.getElementById("homeLinkHeader");
 const productsLinkHeader=document.getElementById("productsLinkHeader");
 const visionLinkHeader=document.getElementById("visionLinkHeader");
@@ -152,7 +152,7 @@ const sendMessage=document.getElementById("sendMessage");
     // scrollBarSententce.innerText=content.scrollBarSententce;
     //-----header---
     logoBrundavanam.innerText=content.logoBrundavanam;
-    contactUsPageTitle.innerText=content.contactUsPageTitle;
+    // contactUsPageTitle.innerText=content.contactUsPageTitle;
     homeLinkHeader.innerText=content.homeLinkHeader;
     productsLinkHeader.innerText=content.productsLinkHeader;
     visionLinkHeader.innerText=content.visionLinkHeader;
